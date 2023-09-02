@@ -36,9 +36,9 @@ const Footer = () => {
           </div>
 
           {/* Right Divs */}
-          <div className="  flex justify-center md:justify-between gap-10 space-x-4 mt-16">
+          <div className="  flex flex-col lg:flex-row mr-40 lg:mr-0    lg:justify-between gap-5 lg:gap-10 lg:space-x-4 mt-5 lg:mt-16">
             {/* Shopping Online */}
-            <div className="flex flex-col gap-5 text-center md:text-left">
+            <div className="flex flex-col gap-5 md:text-left">
               <h4 className="font-semibold mb-2">Shopping Online</h4>
               <ul className='flex flex-col gap-4'>
                 <li>Order Status</li>
@@ -50,7 +50,7 @@ const Footer = () => {
             </div>
 
             {/* Information */}
-            <div className="flex flex-col gap-5  text-center md:text-left">
+            <div className="flex flex-col gap-5   md:text-left">
               <h4 className="font-semibold mb-2">Information</h4>
               <ul className='flex flex-col gap-4'>
                 <li>Gift Card</li>
@@ -62,7 +62,7 @@ const Footer = () => {
             </div>
 
             {/* Contact */}
-            <div className="flex flex-col gap-5 text-center md:text-left">
+            <div className="flex flex-col gap-5  md:text-left">
               <h4 className="font-semibold mb-2">Contact</h4>
               <ul className='flex flex-col gap-4'>
                 <li>Store@mall.com</li>

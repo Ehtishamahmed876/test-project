@@ -31,18 +31,17 @@ const SelectedProducts = () => {
 
   return (
     <div className="bg-white py-8">
-      <div className="  flex flex-col gap-10 justify-center items-center   ">
+      <div className="  flex flex-col gap-10 font-serif justify-center items-center   ">
         {/* Heading and Show More button */}
-        <div className="container  flex font-serif   justify-around  items-center  mb-6">
-          <h2 className="text-2xl mr-48  font-semibold">Selected Just for You</h2>
+        <div className="hidden   lg:flex font-serif   justify-around  items-center  mb-6">
+          <h2 className="text-3xl mr-48  font-semibold">Selected Just for You</h2>
           <button className="bg-white border rounded-3xl  p-2 px-4 ">Show More</button>
         </div>
-
-        {/* Product list */}
+        <h2 className="text-xl lg:hidden text-center  font-semibold">Selected Just for You</h2>
         <div className='flex justify-center items-center'>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-8">
           {products.map((product) => (
-            <div key={product.id} className='flex flex-col gap-8'>
+            <div key={product.id} className='flex flex-col gap-8' >
               <div className="bg-gray-100 rounded-lg p-4">
               <img
                 src={product.imageSrc}
@@ -58,7 +57,8 @@ const SelectedProducts = () => {
           ))}
         </div>
         </div>
-
+        <button className="bg-white border text-center lg:hidden rounded-3xl  p-2 px-4 ">Show More</button>
+        
       </div>
     </div>
   );

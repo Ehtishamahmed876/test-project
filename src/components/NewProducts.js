@@ -33,11 +33,12 @@ const NewProducts = () => {
     <div className="bg-white py-8">
       <div className="   flex flex-col gap-10 justify-center items-center   ">
         {/* Heading and Show More button */}
-        <div className="container  flex font-serif   justify-around  items-center  mb-6">
+        <div className="hidden  lg:flex font-serif   justify-around  items-center  mb-6">
           <h2 className="text-2xl mr-48  font-semibold">New Arrivals</h2>
           <button className="bg-white border rounded-3xl  p-2 px-4 ">Show More</button>
         </div>
-
+        <h2 className="text-2xl lg:hidden text-center mr-48  font-semibold">New Arrivals</h2>
+        
         {/* Product list */}
         <div className='flex justify-center items-center'>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-8">
@@ -58,7 +59,8 @@ const NewProducts = () => {
           ))}
         </div>
         </div>
-
+        <button className="bg-white lg:hidden text-center border rounded-3xl  p-2 px-4 ">Show More</button>
+      
       </div>
     </div>
   );

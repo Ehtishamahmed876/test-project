@@ -4,10 +4,10 @@ const WhyChooseUs = () => {
   return (
     <div className="bg-white py-16">
       <div className="container mx-auto text-center mb-20">
-        <h2 className="text-3xl font-serif font-semibold">Why Should Choose Us?</h2>
+        <h2 className="text-xl  lg:text-3xl font-serif font-semibold">Why Should Choose Us?</h2>
       </div>
 
-      <div className="flex justify-center font-serif items-center gap-6 ">
+      <div className="flex justify-center flex-wrap font-serif items-center gap-6 ">
        {/* First Div */}
        <div className=" rounded-lg p-4 text-left  bg-white    md:mb-0 mb-4">
           <div className="bg-gray-200 w-20 h-20 border-b-4 rounded-b-lg border-b-blue-600  mb-4 flex items-center justify-center  ">
