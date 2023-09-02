@@ -12,12 +12,12 @@ const Navbar = () => {
     <nav className="relative font-serif h-[70%]">
       <img
         src="/assets/Assets/Slider-img.png"
-        alt="Background Image"
+        alt="Background "
         className="absolute inset-0 w-full h-full object-cover object-center "
       />
       <div className=" mx-auto relative z-10 flex justify-center  h-[50rem]">
         <ul className='flex text-left gap-4 p-4 absolute top-4 right-4 z-20 lg:hidden'>
-        <li><a href="#" className="text-white"><img src="/assets/Assets/cart.png" alt="Cart" /></a></li>
+        <li><a href="/#" className="text-white"><img src="/assets/Assets/cart.png" alt="Cart" /></a></li>
         
         <li className="">
               <button
@@ -42,20 +42,20 @@ const Navbar = () => {
             </li>
         </ul>
         <ul className="hidden  lg:flex  space-x-16 p-5  lg:ml-96">
-          <li><a href="#" className="text-white cursor-pointer">Home</a></li>
-          <li><a href="#" className="text-white cursor-pointer">Pages</a></li>
-          <li><a href="#" className="text-white cursor-pointer">Shop</a></li>
-          <li><a href="#" className="text-white cursor-pointer">Blog</a></li>
-          <li><a href="#" className="text-white cursor-pointer">Contact Us</a></li>
+          <li><a href="/#" className="text-white cursor-pointer">Home</a></li>
+          <li><a href="/#" className="text-white cursor-pointer">Pages</a></li>
+          <li><a href="/#" className="text-white cursor-pointer">Shop</a></li>
+          <li><a href="/#" className="text-white cursor-pointer">Blog</a></li>
+          <li><a href="/#" className="text-white cursor-pointer">Contact Us</a></li>
           <li className=''>
             <div className='flex items-center gap-2'>
-              <a href="#" className="text-white">ENG</a>
+              <a href="/#" className="text-white">ENG</a>
               <img src="/assets/Assets/down-arrow.png" alt="Down Arrow" />
             </div>
           </li>
-          <li><a href="#" className="text-white"><img src="/assets/Assets/cart.png" alt="Cart" /></a></li>
+          <li><a href="/#" className="text-white"><img src="/assets/Assets/cart.png" alt="Cart" /></a></li>
         
-          <li><a href="#" className="text-white"><img src="/assets/Assets/search.png" alt="Search" /></a></li>
+          <li><a href="/#" className="text-white"><img src="/assets/Assets/search.png" alt="Search" /></a></li>
 
         </ul>
      
@@ -108,24 +108,24 @@ const Navbar = () => {
           <ul className='flex justify-around p-5'>
          <div>
 
-        <li><a href="#" className="text-white">Home</a></li>
-          <li><a href="#" className="text-white">Pages</a></li>
-          <li><a href="#" className="text-white">Shop</a></li>
-          <li><a href="#" className="text-white">Blog</a></li>
+        <li><a href="/#" className="text-white">Home</a></li>
+          <li><a href="/#" className="text-white">Pages</a></li>
+          <li><a href="/#" className="text-white">Shop</a></li>
+          <li><a href="/#" className="text-white">Blog</a></li>
          </div>
 
           <div>
 
-          <li><a href="#" className="text-white">Contact Us</a></li>
+          <li><a href="/#" className="text-white">Contact Us</a></li>
           <li className=''>
             <div className='flex items-center gap-2'>
-              <a href="#" className="text-white">ENG</a>
+              <a href="/#" className="text-white">ENG</a>
               <img src="/assets/Assets/down-arrow.png" alt="Down Arrow" />
             </div>
           </li>
-          {/* <li><a href="#" className="text-white"><img src="/assets/Assets/cart.png" alt="Cart" /></a></li> */}
+          {/* <li><a href="/#" className="text-white"><img src="/assets/Assets/cart.png" alt="Cart" /></a></li> */}
         
-          <li className=''><a href="#" className="text-white"><img src="/assets/Assets/search.png" alt="Search" /></a></li>
+          <li className=''><a href="/#" className="text-white"><img src="/assets/Assets/search.png" alt="Search" /></a></li>
           </div>
 
           </ul>
