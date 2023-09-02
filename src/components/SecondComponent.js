@@ -4,9 +4,9 @@ import CircleWithText from './CircleButton';
 const TwoDivsWithContent = () => {
   return (
     <div className="bg-white py-32">
-      <div className="container  flex justify-center items-center">
+      <div className="  flex justify-center items-center">
         {/* First div */}
-        <div className="bg-cover bg-center w-[32rem] h-96  relative">
+        <div className="bg-cover bg-center w-[32rem] h-96 mr-4 relative">
           <img src="/assets/Assets/men-coll.png" alt="First Background" className="absolute  inset-0 w-full h-full object-cover" />
           <div className="absolute inset-0 flex flex-col justify-center items-end p-8">
             <div  className='flex flex-col gap-5'>

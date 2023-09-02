@@ -3,13 +3,13 @@ import CircleWithText from './CircleButton';
 
 const Navbar = () => {
   return (
-    <nav className="relative">
+    <nav className="relative font-serif h-[70%]">
       <img
         src="/assets/Assets/Slider-img.png"
         alt="Background Image"
         className="absolute inset-0 w-full h-full object-cover object-center "
       />
-      <div className="container mx-auto relative z-10 flex justify-center  h-[45rem]">
+      <div className="container mx-auto relative z-10 flex justify-center  h-[50rem]">
         <ul className="flex space-x-16 p-5  lg:ml-96">
           <li><a href="#" className="text-white">Home</a></li>
           <li><a href="#" className="text-white">Pages</a></li>
@@ -40,7 +40,7 @@ const Navbar = () => {
      
 
       </div>
-      <div className="bg-white flex w-[70%] h-28 justify-end gap-8 rounded-tr-3xl  items-center absolute bottom-0 left-0">
+      <div className="bg-white flex w-[70%] h-28 justify-end gap-16 rounded-tr-[4rem]  items-center absolute bottom-0 left-0">
           {/* Three sub-divs */}
           <div className="p-4">
             <h4 className="text-base font-semibold">Free Shiping</h4>

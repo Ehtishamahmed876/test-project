@@ -1,9 +1,7 @@
 import React from 'react';
 
 const CircleWithText = ({ text, textColor }) => {
-    const textStyle = {
-        color: textColor,
-      };
+
 
   return (
     <div className="flex items-center gap-20">
